@@ -1,0 +1,162 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Arial;
+}
+
+body {
+background: #eaf6ff;
+color: #22313f;
+}
+
+.caja {
+width: 380px;
+margin: 100px auto;
+background: white;
+padding: 40px 30px;
+border-radius: 15px;
+text-align: center;
+box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.logo {
+width: 70px;
+height: 70px;
+margin: 0 auto 15px;
+background: #1f3b73;
+color: white;
+font-size: 35px;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+h1 {
+color: #1f3b73;
+margin-bottom: 10px;
+}
+
+.subtitulo {
+color: #666;
+margin-bottom: 20px;
+}
+
+form {
+display: flex;
+flex-direction: column;
+text-align: left;
+}
+
+label {
+margin-top: 12px;
+font-weight: bold;
+color: #1f3b73;
+}
+
+input, select {
+padding: 10px;
+margin-top: 5px;
+border: 1px solid #ccc;
+border-radius: 8px;
+}
+
+button {
+margin-top: 20px;
+padding: 12px;
+background: #1f3b73;
+color: white;
+border: none;
+border-radius: 8px;
+cursor: pointer;
+}
+
+button:hover {
+background: #16305c;
+}
+
+.error {
+background: #fdecea;
+color: #b3261e;
+padding: 10px;
+border-radius: 8px;
+margin-bottom: 15px;
+}
+
+header {
+background: #1f3b73;
+color: white;
+padding: 15px 25px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+header a {
+color: white;
+background: #e74c3c;
+padding: 8px 12px;
+border-radius: 6px;
+text-decoration: none;
+}
+
+main {
+max-width: 1000px;
+margin: 30px auto;
+display: flex;
+gap: 20px;
+flex-wrap: wrap;
+}
+
+.tarjeta {
+background: white;
+padding: 25px;
+border-radius: 12px;
+flex: 1;
+min-width: 320px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.10);
+}
+
+table {
+width: 100%;
+border-collapse: collapse;
+margin-top: 15px;
+}
+
+th, td {
+border: 1px solid #ddd;
+padding: 10px;
+text-align: left;
+}
+
+th {
+background: #1f3b73;
+color: white;
+.boton-registro {
+display: block;
+margin-top: 15px;
+padding: 10px;
+background: #eaf6ff;
+color: #1f3b73;
+text-align: center;
+text-decoration: none;
+border-radius: 8px;
+font-weight: bold;
+border: 1px solid #1f3b73;
+}
+
+.boton-registro:hover {
+background: #1f3b73;
+color: white;
+}
+
+.correcto {
+background: #e6f7ec;
+color: #1e7e34;
+padding: 10px;
+border-radius: 8px;
+margin-bottom: 15px;
+border: 1px solid #b7e4c7;
+}
+}
